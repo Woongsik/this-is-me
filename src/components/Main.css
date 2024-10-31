@@ -1,0 +1,151 @@
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.7);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  width: 100%;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  margin: 0px auto;
+}
+
+.page {
+  min-height: 110vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  place-content: center;
+}
+
+header {
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  margin-bottom: 20rem;
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.75rem;
+  line-height: 1.5;
+  border-radius: 30px;
+}
+
+h1, h2, h3, blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  filter: blur(0px);
+  transform: translateX(0);
+  opacity: 1; 
+}
+
+section li {
+  text-align: left;
+  margin: auto 50px;
+}
+
+section a {
+  text-decoration: none;
+  color: white;
+}
+
+section a:hover {
+  background-color: white;
+  color: black;
+}
+
+blockquote {
+  grid-column: 2 / span 9;
+}
+
+blockquote p {
+  color: white;
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+.right {
+  grid-column: 6 / 12;
+}
+
+.highlight {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.contact {
+  height: 100vh;
+  background-color: rgba(25, 14, 14, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contact-body {
+  height: 30vh;
+  background-color: white;
+  width: 50%;
+  color: black;
+  font-size: 2rem;
+  text-align: left;
+  position: relative;
+  border-radius: 15px;
+}
+
+.contact-close {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  text-align: right;
+}
+
+.close-btn {
+  font-size: 1rem;
+}
+
+.c-black {
+  color: black;
+  width: 100%;
+}
