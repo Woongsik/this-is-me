@@ -6,7 +6,7 @@
 
    This is so cool and fun to have three.js in my page.
 
-   Check out here [Live link](https://awesome-shopping.netlify.app/)
+   Check out here [https://woong.netlify.app/](https://woong.netlify.app/)
 
 <a name="getting_started"></a>
 ## Getting Started
@@ -37,7 +37,5 @@
 
 
    ### Screenshots or GIFs
-   ![screenshot of the site home](<./src/assets/images/Screenshot_home.png>)
-   ![screenshot of the site details](<./src/assets/images/Screenshot_detail.png>)
-   ![screenshot of the site cart](<./src/assets/images/Screenshot_cart.png>)
-   ![screenshot of the site filter](<./src/assets/images/Screenshot_filter.png>)
+   ![screenshot of the site home](<./src/assets/images/screenshot_home.png>)
+   ![screenshot of the site details](<./src/assets/images/screenshot_contact.png>)
