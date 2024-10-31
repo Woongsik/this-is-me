@@ -111,6 +111,7 @@ blockquote p {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   min-height: 100%;
 }
 
@@ -126,9 +127,10 @@ blockquote p {
 .contact-body {
   height: 30vh;
   background-color: white;
-  width: 50%;
+  width: 55%;
+  max-width: 700px;
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: left;
   position: relative;
   border-radius: 15px;
@@ -148,4 +150,62 @@ blockquote p {
 .c-black {
   color: black;
   width: 100%;
+}
+
+.wrapper {
+  width: 85%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media (max-width: 375px){
+  header {
+    margin-bottom: 1rem; 
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+  }
+
+  section {
+    grid-column: 2/12;
+    font-size: 1.2rem;
+  }
+
+  section li {
+    margin: 0;
+  }
+
+  .right {
+    grid-column: 2/12;
+  }
+
+  blockquote {
+    grid-column: 2/12;
+  }
+
+  blockquote p {
+    font-size: 2rem;
+  } 
+
+
+  .contact-body {
+    width: 90%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-contents {
+    width: 85%;
+    min-height: none;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+
+  .close-btn {
+    font-size: 0.8rem;
+  }
 }

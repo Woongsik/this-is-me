@@ -169,9 +169,9 @@ function Main() {
       { show &&
       <div className="contact d-flex-center">
         <div className='contact-body'>
-          <div className='contact-contents d-flex-center'>
-            <div>
-              <div>
+          <div className='contact-contents d-flex-center '>
+            <div className='wrapper d-flex-center'>
+              <div className='d-flex-center w-100'>
                 🍩 Let's grab a coffee by online or offline any how! ☕️
               </div>
               <div className='d-flex-center'>
